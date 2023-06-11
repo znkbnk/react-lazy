@@ -1,3 +1,4 @@
+//App.js
 import React, { Suspense } from 'react';
 
 const ComponentA = React.lazy(() => import('./ComponentA'));
@@ -22,3 +23,4 @@ function App() {
 }
 
 export default App;
+
